@@ -1,3 +1,27 @@
 body {
-  background-color: blue;
+  font-family: "Roboto", sans-serif;
+  background-image: url("v748-toon-111.jpg");
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.logo {
+  width: 30%;
+  text-align: center;
+  margin-left: 50px;
+  border: solid 5px red;
+  padding: 0%;
+}
+.links {
+  margin-right: 50px;
+  display: inline;
+}
+li {
+  text-decoration: none;
+
+  list-style: none;
 }
