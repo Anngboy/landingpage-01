@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-image: url("v748-toon-111.jpg");
+  text-align: center;
 }
 
 .header {
@@ -37,10 +38,65 @@ span {
   border: solid 3px black;
   display: flex;
   border-radius: 50%;
-  margin-left: 70px;
+  margin-left: auto;
+  margin-right: auto;
   align-items: center;
+  justify-content: center;
+  width: 250px;
+  margin-top: 20px;
 }
 
 .left {
   width: 50%;
+  margin: auto;
+  padding: 30px;
+}
+
+.box {
+  background-color: antiquewhite;
+  width: 100%;
+  border: solid 3px red;
+}
+
+.textinfo {
+  text-align: center;
+}
+
+.right {
+  display: inline-block;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+
+.formbox {
+  background-color: rgb(160, 179, 56);
+  display: block;
+  text-align: center;
+  width: 350px;
+  height: 250px;
+  border: solid 2px black;
+}
+
+.form {
+  display: ;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+label {
+}
+.subbut {
+  margin-top: 40px;
+}
+
+.footer {
+  background-color: blueviolet;
+  width: 100%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  font-size: 40px;
+  position: relative;
+  top: 500px;
 }
