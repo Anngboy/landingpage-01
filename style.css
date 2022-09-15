@@ -7,21 +7,40 @@ body {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  background-color: rgba(250, 235, 215, 0.651);
+  margin: 0%;
+  border: solid 5px red;
 }
 
 .logo {
+  display: flex;
+  justify-content: right;
+  align-items: center;
   width: 30%;
   text-align: center;
-  margin-left: 50px;
-  border: solid 5px red;
+
   padding: 0%;
 }
 .links {
-  margin-right: 50px;
-  display: inline;
+  margin: 0;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
-li {
+span {
   text-decoration: none;
-
+  margin-right: 30px;
   list-style: none;
+}
+
+.img-pic {
+  border: solid 3px black;
+  display: flex;
+  border-radius: 50%;
+  margin-left: 70px;
+  align-items: center;
+}
+
+.left {
+  width: 50%;
 }
