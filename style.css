@@ -8,9 +8,12 @@ body {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  background-color: rgba(250, 235, 215, 0.651);
+  background-color: #14213d;
   margin: 0%;
-  border: solid 5px red;
+  border: solid 5px #fca311;
+  border-radius: 20px;
+  box-shadow: 10px 10px #14213d;
+  color: #fff;
 }
 
 .logo {
@@ -27,15 +30,18 @@ body {
   align-items: center;
   display: flex;
   justify-content: space-between;
+  text-decoration: none;
+  list-style: none;
 }
 span {
   text-decoration: none;
   margin-right: 30px;
   list-style: none;
+  color: #e5e5e5;
 }
 
 .img-pic {
-  border: solid 3px black;
+  border: solid 3px;
   display: flex;
   border-radius: 50%;
   margin-left: auto;
@@ -44,6 +50,7 @@ span {
   justify-content: center;
   width: 250px;
   margin-top: 20px;
+  box-shadow: 5px 5px #14213d;
 }
 
 .left {
@@ -55,7 +62,8 @@ span {
 .box {
   background-color: antiquewhite;
   width: 100%;
-  border: solid 3px red;
+  border: solid 3px #fca311;
+  box-shadow: 5px 5px #14213d;
 }
 
 .textinfo {
@@ -69,12 +77,13 @@ span {
 }
 
 .formbox {
-  background-color: rgb(160, 179, 56);
+  background-color: #e5e5e5;
   display: block;
   text-align: center;
   width: 350px;
   height: 250px;
-  border: solid 2px black;
+  border: solid 2px #fca311;
+  box-shadow: 5px 5px #14213d;
 }
 
 .form {
@@ -92,7 +101,8 @@ label {
 }
 
 .footer {
-  background-color: blueviolet;
+  background-color: black;
+  color: white;
   width: 100%;
   margin-bottom: 0%;
   padding-bottom: 0%;
