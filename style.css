@@ -1,86 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-image: url("v748-toon-111.jpg");
-  text-align: center;
+  padding: 5px;
+}
+nav {
+  background: #284b63;
+  height: 80px;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  background-color: #14213d;
-  margin: 0%;
-  border: solid 5px #fca311;
-  border-radius: 20px;
-  box-shadow: 10px 10px #14213d;
-  color: #fff;
+label.logo {
+  color: #d9d9d9;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
 }
 
-.logo {
-  display: flex;
-  justify-content: right;
-  align-items: center;
-  width: 30%;
-  text-align: center;
-  font-size: 20px;
-
-  padding: 0%;
-}
-.links {
-  margin: 0;
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  text-decoration: none;
-  list-style: none;
-  font-size: 30px;
-}
-span a {
-  text-decoration: none;
+nav ul {
+  float: right;
   margin-right: 20px;
-  list-style: none;
-  color: #e5e5e5;
 }
 
-.img-pic {
-  border: solid 3px;
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 50px;
+}
+nav ul li a {
+  color: #d9d9d9;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.projects {
+  border: solid red 5px;
   display: flex;
-  border-radius: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
   justify-content: center;
-  width: 250px;
-  margin-top: 20px;
-  box-shadow: 5px 5px #14213d;
-}
-
-.left {
-  width: 30%;
-  margin: left;
-  padding: 30px;
-}
-
-.box {
-  background-color: antiquewhite;
-  width: 70%;
-  border: solid 3px #fca311;
-  box-shadow: 5px 5px #14213d;
-}
-
-.textinfo {
-  text-align: center;
-  font-size: 30px;
-  font-weight: 900;
-}
-
-.footer {
-  background-color: black;
-  color: white;
+  align-items: center;
   width: 100%;
-  margin-bottom: 0%;
-  padding-bottom: 0%;
-  font-size: 40px;
-  position: relative;
-  top: 500px;
+}
+.projects .profile h1 {
+  width: 30%;
+  text-align: center;
+}
+
+.profile img {
+  width: auto;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  border: solid red 5px;
+  border-radius: 25%;
+}
+
+.profile-img h1 {
+  text-align: center;
+}
+img {
+  width: 50%;
+  margin-left: 50px;
+}
+.aboutme {
+  float: right;
 }
