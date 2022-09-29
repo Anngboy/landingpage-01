@@ -4,3 +4,6 @@ I will be creating a landing page following the lesson plan and will have this u
 
 Sept 14- Began to add some html to see how the website would come along.
 Added- Header and started the main part of the page.
+
+Sept-29 : this journy has not been easy but it will definitly be worth it.
+Slowly learning how to put things together.
